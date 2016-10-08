@@ -1,0 +1,14 @@
+<view class="newpage">
+    <image class="tit" src="../../images/answer_index_title.png" mode="aspectFit" />
+    <div class="cont">
+            <div>{{curtopic.title}}</div>
+            <div><image src="{{curtopic.pic}}" class="pic" /></div>
+
+        <radio-group class="radio-group" bindchange="radioChange">
+            <label class="radio" wx:for="{{curtopic.items}}">
+                <radio value="{{item.name}}" />{{item.value}}
+            </label>
+        </radio-group>
+        <button class="next_question" bindtap="nextPage">下一题</button>
+    </div>
+</view>

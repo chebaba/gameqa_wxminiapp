@@ -1,0 +1,11 @@
+<view class="popover-page">
+    <div class="result">
+        <image src="../../images/answer_result.png" alt="" />
+        <div class="point">{{score}}</div>
+        <div class="t">{{correct}}</div>
+        <div class="f">{{wrong}}</div>
+        <image src="{{resultimgsrc}}" class="result_pic" />
+        <div class="share"></div>
+        <div class="fresh" bindtap="goHome"></div>
+    </div>
+</view>

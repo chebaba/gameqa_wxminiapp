@@ -1,0 +1,2 @@
+	<image class="index_pic" src="../../images/answer_index.jpg">
+	<div class="click" bindtap="start"></div>

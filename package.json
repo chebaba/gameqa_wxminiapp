@@ -1,0 +1,27 @@
+{
+  "name": "myapp",
+  "version": "0.1.a",
+  "description": "kybot demo miniapp",
+  "main": "app.js",
+  "scripts": {
+    "generate:page": "./generate page",
+    "generate:component": "./generate component"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "weapp",
+    "weapp",
+    "demo",
+    "wechat",
+    "weixin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
+}
