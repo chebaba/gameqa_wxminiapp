@@ -1,11 +1,10 @@
 page {
-  font-family: -apple-system-font, 'Helvetica Neue', Helvetica, 'Microsoft YaHei', sans-serif;
-  font-family:;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
+  font-family: 'Times New Roman', Times, serif;
+  height: 100%;
 }
-
+.eachpage {
+  height: 100%;
+}
 .page-header {
   display: flex;
   justify-content: center;
@@ -23,6 +22,7 @@ page {
   display: flex;
   flex: 1;
   flex-direction: column;
+  height: 100%;
 }
 
 .item {
