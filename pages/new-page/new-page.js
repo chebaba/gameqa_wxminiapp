@@ -73,10 +73,10 @@ Page({
   onLoad: function(options) {
     var curpage = options.curpage
     if (curpage && (curpage>0 && curpage<6)) {
-      console.log('当前是第' + curpage + '页')
       curpage = parseInt(curpage)
       curpage += 1
       this.data.curtopic = this.data.topics[curpage-1]
+      console.log('当前是第' + curpage + '页')
     } else {
       console.log('当前是第1页')
       this.data.curtopic = this.data.topics[0]

@@ -7,6 +7,6 @@ Page({
     loading: true
   },
   start() {
-  	wx.navigateTo({url: '../new-page/new-page'})
+  	wx.redirectTo({url: '../new-page/new-page'})
   }
 })
